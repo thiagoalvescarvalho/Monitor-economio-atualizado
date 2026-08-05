@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GeoPolitics Portal</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="desktop">
+
+<header class="topbar">
+
+<div class="logo">
+
+<img src="imagens/logo.png" alt="Logo">
+
+<h1>GeoPolitics Portal</h1>
+
+</div>
+
+<div class="top-info">
+
+<div id="clock"></div>
+
+</div>
+
+</header>
+
+<nav class="menu">
+
+<ul>
+
+<li><a href="#">Início</a></li>
+
+<li><a href="paises/eua.html">Estados Unidos</a></li>
+
+<li><a href="paises/china.html">China</a></li>
+
+<li><a href="paises/india.html">Índia</a></li>
+
+<li><a href="paises/russia.html">Rússia</a></li>
+
+<li><a href="paises/japao.html">Japão</a></li>
+
+<li><a href="paises/ira.html">Irã</a></li>
+
+<li><a href="paises/emirados.html">Emirados Árabes</a></li>
+
+<li><a href="economia/index.html">Economia</a></li>
+
+<li><a href="militar/index.html">Militar</a></li>
+
+<li><a href="geopolitica/index.html">Geopolítica</a></li>
+
+<li><a href="tecnologia/index.html">Tecnologia</a></li>
+
+<li><a href="conflitos/index.html">Conflitos</a></li>
+
+</ul>
+
+</nav>
+
+<main>
+
+<section class="janela">
+
+<div class="titulo-janela">
+
+Panorama Mundial
+
+</div>
+
+<div class="conteudo">
+
+<p>
+
+Bem-vindo ao GeoPolitics Portal.
+
+Este portal reúne informações econômicas, militares,
+
+tecnológicas e geopolíticas dos principais países do mundo.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="janela">
+
+<div class="titulo-janela">
+
+PIB Mundial
+
+</div>
+
+<div class="conteudo">
+
+<div class="cards">
+
+<div class="card">
+
+<h2>🇺🇸 Estados Unidos</h2>
+
+<p id="usaGDP">$ 29.100.000.000.000</p>
+
+</div>
+
+<div class="card">
+
+<h2>🇨🇳 China</h2>
+
+<p id="chinaGDP">$ 18.800.000.000.000</p>
+
+</div>
+
+<div class="card">
+
+<h2>🇮🇳 Índia</h2>
+
+<p id="indiaGDP">$ 4.100.000.000.000</p>
+
+</div>
+
+<div class="card">
+
+<h2>🇷🇺 Rússia</h2>
+
+<p id="russiaGDP">$ 2.300.000.000.000</p>
+
+</div>
+
+<div class="card">
+
+<h2>🇯🇵 Japão</h2>
+
+<p id="japanGDP">$ 4.200.000.000.000</p>
+
+</div>
+
+<div class="card">
+
+<h2>🇮🇷 Irã</h2>
+
+<p id="iranGDP">$ 430.000.000.000</p>
+
+</div>
+
+<div class="card">
+
+<h2>🇦🇪 Emirados Árabes</h2>
+
+<p id="uaeGDP">$ 610.000.000.000</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="janela">
+
+<div class="titulo-janela">
+
+Gráfico do PIB
+
+</div>
+
+<div class="conteudo">
+
+<canvas id="graficoPIB"></canvas>
+
+</div>
+
+</section>
+<section class="janela">
+
+    <div class="titulo-janela">
+    Mapa Mundial
+    </div>
+
+    <div class="conteudo">
+
+    <div id="mapaMundial">
+
+    <img src="imagens/mapa-mundi.png" alt="Mapa Mundial" width="100%">
+
+    </div>
+
+    <p class="descricao">
+    Clique futuramente em um país para visualizar informações econômicas, militares e geopolíticas.
+    </p>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="titulo-janela">
+    Maiores Economias
+    </div>
+
+    <div class="conteudo">
+
+    <table class="tabela">
+
+    <thead>
+
+    <tr>
+
+    <th>Posição</th>
+
+    <th>País</th>
+
+    <th>PIB</th>
+
+    <th>Crescimento</th>
+
+    </tr>
+
+    </thead>
+
+    <tbody>
+
+    <tr>
+
+    <td>1</td>
+
+    <td>🇺🇸 Estados Unidos</td>
+
+    <td>US$ 29 Trilhões</td>
+
+    <td>2,1%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>2</td>
+
+    <td>🇨🇳 China</td>
+
+    <td>US$ 18 Trilhões</td>
+
+    <td>4,8%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>3</td>
+
+    <td>🇩🇪 Alemanha</td>
+
+    <td>US$ 4,7 Trilhões</td>
+
+    <td>0,8%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>4</td>
+
+    <td>🇯🇵 Japão</td>
+
+    <td>US$ 4,2 Trilhões</td>
+
+    <td>1,2%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>5</td>
+
+    <td>🇮🇳 Índia</td>
+
+    <td>US$ 4,1 Trilhões</td>
+
+    <td>6,5%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>6</td>
+
+    <td>🇫🇷 França</td>
+
+    <td>US$ 3,4 Trilhões</td>
+
+    <td>1,1%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>7</td>
+
+    <td>🇬🇧 Reino Unido</td>
+
+    <td>US$ 3,3 Trilhões</td>
+
+    <td>1,0%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>8</td>
+
+    <td>🇮🇹 Itália</td>
+
+    <td>US$ 2,6 Trilhões</td>
+
+    <td>0,7%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>9</td>
+
+    <td>🇧🇷 Brasil</td>
+
+    <td>US$ 2,4 Trilhões</td>
+
+    <td>2,4%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>10</td>
+
+    <td>🇷🇺 Rússia</td>
+
+    <td>US$ 2,3 Trilhões</td>
+
+    <td>2,6%</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="titulo-janela">
+
+    Últimas Notícias
+
+    </div>
+
+    <div class="conteudo">
+
+    <ul class="noticias">
+
+    <li>Atualização das relações comerciais entre China e Emirados Árabes.</li>
+
+    <li>Novas discussões sobre expansão dos BRICS.</li>
+
+    <li>Evolução do comércio entre Índia e Estados Unidos.</li>
+
+    <li>Atualização das sanções internacionais em vigor.</li>
+
+    <li>Novos acordos tecnológicos entre Japão e EUA.</li>
+
+    <li>Mercado mundial de petróleo apresenta mudanças.</li>
+
+    <li>Exportações de semicondutores continuam crescendo.</li>
+
+    <li>Novos investimentos em Inteligência Artificial.</li>
+
+    </ul>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="titulo-janela">
+
+    Principais Organizações
+
+    </div>
+
+    <div class="conteudo">
+
+    <div class="cards">
+
+    <div class="card">
+    <h2>BRICS</h2>
+    <p>Bloco econômico formado por economias emergentes.</p>
+    </div>
+
+    <div class="card">
+    <h2>OTAN</h2>
+    <p>Aliança militar liderada pelos países do Atlântico Norte.</p>
+    </div>
+
+    <div class="card">
+    <h2>G7</h2>
+    <p>Grupo das maiores economias industrializadas.</p>
+    </div>
+
+    <div class="card">
+    <h2>G20</h2>
+    <p>Fórum internacional das principais economias.</p>
+    </div>
+
+    </div>
+
+    </div>
+
+    </section>
+    <section class="janela">
+
+        <div class="titulo-janela">
+        Poder Militar
+        </div>
+
+        <div class="conteudo">
+
+        <div class="cards">
+
+        <div class="card">
+        <h2>🇺🇸 Estados Unidos</h2>
+        <ul>
+        <li>Maior orçamento militar</li>
+        <li>11 porta-aviões</li>
+        <li>Força aérea global</li>
+        <li>Arsenal nuclear</li>
+        </ul>
+        </div>
+
+        <div class="card">
+        <h2>🇨🇳 China</h2>
+        <ul>
+        <li>Grande efetivo militar</li>
+        <li>Marinha em expansão</li>
+        <li>Caças modernos</li>
+        <li>Mísseis estratégicos</li>
+        </ul>
+        </div>
+
+        <div class="card">
+        <h2>🇷🇺 Rússia</h2>
+        <ul>
+        <li>Arsenal nuclear</li>
+        <li>Tanques</li>
+        <li>Submarinos</li>
+        <li>Sistemas de defesa aérea</li>
+        </ul>
+        </div>
+
+        <div class="card">
+        <h2>🇮🇳 Índia</h2>
+        <ul>
+        <li>Grande efetivo</li>
+        <li>Programa espacial</li>
+        <li>Marinha moderna</li>
+        <li>Mísseis balísticos</li>
+        </ul>
+        </div>
+
+        </div>
+
+        </div>
+
+        </section>
+
+        <section class="janela">
+
+        <div class="titulo-janela">
+        Tecnologia
+        </div>
+
+        <div class="conteudo">
+
+        <div class="cards">
+
+        <div class="card">
+        <h2>Estados Unidos</h2>
+        <p>Empresas líderes em IA, software, semicondutores, computação em nuvem e setor aeroespacial.</p>
+        </div>
+
+        <div class="card">
+        <h2>China</h2>
+        <p>Investimentos em inteligência artificial, 5G, veículos elétricos e supercomputadores.</p>
+        </div>
+
+        <div class="card">
+        <h2>Japão</h2>
+        <p>Robótica, automação industrial, eletrônicos e pesquisa científica.</p>
+        </div>
+
+        <div class="card">
+        <h2>Índia</h2>
+        <p>Setor de software, tecnologia da informação, startups e exploração espacial.</p>
+        </div>
+
+        </div>
+
+        </div>
+
+        </section>
+
+        <section class="janela">
+
+        <div class="titulo-janela">
+        Comércio Internacional
+        </div>
+
+        <div class="conteudo">
+
+        <canvas id="graficoComercio"></canvas>
+
+        <table class="tabela">
+
+        <thead>
+
+        <tr>
+
+        <th>País</th>
+        <th>Principal Exportação</th>
+        <th>Principal Importação</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+        <td>Estados Unidos</td>
+        <td>Tecnologia</td>
+        <td>Eletrônicos</td>
+        </tr>
+
+        <tr>
+        <td>China</td>
+        <td>Manufaturados</td>
+        <td>Petróleo</td>
+        </tr>
+
+        <tr>
+        <td>Índia</td>
+        <td>Medicamentos</td>
+        <td>Petróleo</td>
+        </tr>
+
+        <tr>
+        <td>Japão</td>
+        <td>Automóveis</td>
+        <td>Energia</td>
+        </tr>
+
+        <tr>
+        <td>Rússia</td>
+        <td>Petróleo e Gás</td>
+        <td>Máquinas</td>
+        </tr>
+
+        <tr>
+        <td>Emirados Árabes</td>
+        <td>Petróleo</td>
+        <td>Equipamentos</td>
+        </tr>
+
+        </tbody>
+
+        </table>
+
+        </div>
+
+        </section>
+
+        <section class="janela">
+
+        <div class="titulo-janela">
+        Conflitos e Diplomacia
+        </div>
+
+        <div class="conteudo">
+
+        <div class="cards">
+
+        <div class="card">
+        <h2>Europa Oriental</h2>
+        <p>Resumo dos acontecimentos e contexto histórico.</p>
+        </div>
+
+        <div class="card">
+        <h2>Oriente Médio</h2>
+        <p>Panorama regional, negociações diplomáticas e eventos recentes.</p>
+        </div>
+
+        <div class="card">
+        <h2>Ásia-Pacífico</h2>
+        <p>Relações internacionais e disputas territoriais.</p>
+        </div>
+
+        <div class="card">
+        <h2>África</h2>
+        <p>Cooperação internacional e desafios regionais.</p>
+        </div>
+
+        </div>
+
+        </div>
+
+        </section>
+        <section class="janela">
+
+                <div class="titulo-janela">
+                        Alianças Internacionais
+                            </div>
+
+                                <div class="conteudo">
+
+                                        <table class="tabela">
+
+                                                    <thead>
+
+                                                                    <tr>
+
+                                                                                        <th>Organização</th>
+                                                                                                            <th>Objetivo</th>
+                                                                                                                                <th>Principais Membros</th>
+
+                                                                                                                                                </tr>
+
+                                                                                                                                                            </thead>
+
+                                                                                                                                                                        <tbody>
+
+                                                                                                                                                                                        <tr>
+
+                                                                                                                                                                                                            <td>BRICS</td>
+                                                                                                                                                                                                                                <td>Cooperação econômica</td>
+                                                                                                                                                                                                                                                    <td>Brasil, Rússia, Índia, China e outros membros</td>
+
+                                                                                                                                                                                                                                                                    </tr>
+
+                                                                                                                                                                                                                                                                                    <tr>
+
+                                                                                                                                                                                                                                                                                                        <td>OTAN</td>
+                                                                                                                                                                                                                                                                                                                            <td>Aliança militar</td>
+                                                                                                                                                                                                                                                                                                                                                <td>EUA, Canadá e diversos países europeus</td>
+
+                                                                                                                                                                                                                                                                                                                                                                </tr>
+
+                                                                                                                                                                                                                                                                                                                                                                                <tr>
+
+                                                                                                                                                                                                                                                                                                                                                                                                    <td>G7</td>
+                                                                                                                                                                                                                                                                                                                                                                                                                        <td>Coordenação econômica</td>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            <td>EUA, Japão, Alemanha, França, Reino Unido, Itália e Canadá</td>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            </tr>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <tr>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <td>G20</td>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <td>Cooperação econômica global</td>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <td>Principais economias do mundo</td>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </tr>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </tbody>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </table>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </section>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <footer class="rodape">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="rodape-esquerda">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <h3>GeoPolitics Portal</h3>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Portal desenvolvido para apresentação acadêmica.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </p>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="rodape-centro">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <h3>Links</h3>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <ul>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li><a href="#">Início</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li><a href="#">Economia</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a href="#">Militar</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><a href="#">Geopolítica</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li><a href="#">Tecnologia</a></li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="rodape-direita">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <h3>Versão</h3>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>GeoPolitics Portal v1.0</p>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>Estilo Windows 98</p>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </footer>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </main>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </body>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </html>
+
+      /* =========================================================
+         SISTEMA DE NOTÍCIAS
+         ========================================================= */
+
+
+         const noticias = [
+
+         {
+         titulo:"Mudanças no comércio internacional",
+         categoria:"Economia",
+         data:"2026"
+         },
+
+         {
+         titulo:"Novos acordos tecnológicos entre países",
+         categoria:"Tecnologia",
+         data:"2026"
+         },
+
+         {
+         titulo:"Atualizações sobre alianças internacionais",
+         categoria:"Geopolítica",
+         data:"2026"
+         },
+
+         {
+         titulo:"Investimentos militares e defesa",
+         categoria:"Militar",
+         data:"2026"
+         }
+
+         ];
+
+
+
+         function carregarNoticias(){
+
+
+         const lista =
+         document.getElementById("listaNoticias");
+
+
+
+         if(!lista){
+
+         return;
+
+         }
+
+
+
+         lista.innerHTML="";
+
+
+
+         noticias.forEach(noticia=>{
+
+
+         const div =
+         document.createElement("div");
+
+
+
+         div.className="noticia";
+
+
+
+         div.innerHTML=
+
+         `
+
+         <h3>${noticia.titulo}</h3>
+
+         <p>
+         Categoria: ${noticia.categoria}
+         </p>
+
+         <p>
+         Ano: ${noticia.data}
+         </p>
+
+         `;
+
+
+
+         lista.appendChild(div);
+
+
+
+         });
+
+
+
+         }
+
+
+
+         window.addEventListener(
+
+         "load",
+
+         carregarNoticias
+
+         );
+
+
+
+
+
+         /* =========================================================
+            SISTEMA DE FAVORITOS
+            ========================================================= */
+
+
+            function adicionarFavorito(pais){
+
+
+
+            let favoritos =
+
+            JSON.parse(
+
+            localStorage.getItem("favoritos")
+
+            ) || [];
+
+
+
+            if(!favoritos.includes(pais)){
+
+
+
+            favoritos.push(pais);
+
+
+
+            localStorage.setItem(
+
+            "favoritos",
+
+            JSON.stringify(favoritos)
+
+            );
+
+
+
+            console.log(
+
+            pais+" adicionado aos favoritos"
+
+            );
+
+
+
+            }
+
+
+
+            }
+
+
+
+
+            function listarFavoritos(){
+
+
+
+            let favoritos =
+
+            JSON.parse(
+
+            localStorage.getItem("favoritos")
+
+            ) || [];
+
+
+
+            console.log(
+
+            "Favoritos:",
+
+            favoritos
+
+            );
+
+
+
+            return favoritos;
+
+
+            }
+
+
+
+
+
+            /* =========================================================
+               CARREGAR INFORMAÇÕES DE UM PAÍS
+               ========================================================= */
+
+
+               function carregarPais(nome){
+
+
+
+               const pais =
+
+               encontrarPais(nome);
+
+
+
+               if(!pais){
+
+               console.log(
+               "País não encontrado"
+               );
+
+               return;
+
+               }
+
+
+
+               const elementos = {
+
+
+               nomePais:pais.nome,
+
+               capitalPais:pais.capital,
+
+               moedaPais:pais.moeda,
+
+               continentePais:pais.continente,
+
+               pibPais:
+
+               "$ "+
+
+               pais.pib.toLocaleString("pt-BR")
+
+
+               };
+
+
+
+               Object.keys(elementos).forEach(id=>{
+
+
+               const elemento =
+
+               document.getElementById(id);
+
+
+
+               if(elemento){
+
+
+
+               elemento.innerHTML =
+
+               elementos[id];
+
+
+
+               }
+
+
+
+               });
+
+
+
+               }
+
+
+
+
+
+               /* =========================================================
+                  PREPARAÇÃO PARA MAPA
+                  ========================================================= */
+
+
+                  function iniciarMapa(){
+
+
+
+                  const mapa =
+
+                  document.getElementById(
+                  "mapaMundial"
+                  );
+
+
+
+                  if(mapa){
+
+
+                  console.log(
+
+                  "Área do mapa encontrada"
+
+                  );
+
+
+
+                  }
+
+
+
+                  }
+
+
+
+                  window.addEventListener(
+
+                  "load",
+
+                  iniciarMapa
+
+                  );
+
+
+
+
+
+                  /* =========================================================
+                     FUNÇÃO DE ANIMAÇÃO DE NÚMEROS
+                     ========================================================= */
+
+
+                     function animarContador(
+
+                     elemento,
+
+                     inicio,
+
+                     fim
+
+                     ){
+
+
+
+                     let valor = inicio;
+
+
+
+                     const intervalo =
+
+                     setInterval(()=>{
+
+
+                     valor +=
+
+                     (fim-inicio)/100;
+
+
+
+                     if(valor >= fim){
+
+
+                     valor=fim;
+
+
+                     clearInterval(intervalo);
+
+
+                     }
+
+
+
+                     elemento.innerHTML =
+
+                     Math.floor(valor)
+                     .toLocaleString("pt-BR");
+
+
+
+                     },30);
+
+
+
+                     }
+
+
+
+
+
+                     /* =========================================================
+                        FINAL DO SCRIPT.JS
+                        ========================================================= */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Rússia - GeoPolitics</title>
+
+<link rel="stylesheet"
+href="../style.css">
+
+<script
+src="https://cdn.jsdelivr.net/npm/chart.js">
+</script>
+
+<script defer
+src="../script.js">
+</script>
+
+</head>
+
+<body>
+
+<div class="desktop">
+
+<header class="topo">
+
+<div class="logo">
+
+<h1>GeoPolitics</h1>
+
+<p>Portal Mundial de Geopolítica</p>
+
+</div>
+
+<nav class="menu">
+
+<a href="../index.html">Início</a>
+
+<a href="../economia.html">Economia</a>
+
+<a href="../geopolitica.html">Geopolítica</a>
+
+<a href="../militar.html">Militar</a>
+
+<a href="../tecnologia.html">Tecnologia</a>
+
+<a href="../comercio.html">Comércio</a>
+
+<a href="../conflitos.html">Conflitos</a>
+
+<a href="../noticias.html">Notícias</a>
+
+</nav>
+
+</header>
+
+<section class="janela">
+
+<div class="barra">
+
+Federação Russa
+
+</div>
+
+<div class="conteudo">
+
+<h2>
+
+🇷🇺 Rússia
+
+</h2>
+
+<img
+
+src="../imagens/bandeiras/russia.png"
+
+class="bandeira"
+
+alt="Rússia">
+
+<table class="tabela">
+
+<tr>
+
+<td>Capital</td>
+
+<td>Moscou</td>
+
+</tr>
+
+<tr>
+
+<td>População</td>
+
+<td>≈144 milhões</td>
+
+</tr>
+
+<tr>
+
+<td>Área</td>
+
+<td>17.098.246 km²</td>
+
+</tr>
+
+<tr>
+
+<td>Moeda</td>
+
+<td>Rublo Russo</td>
+
+</tr>
+
+<tr>
+
+<td>Idioma</td>
+
+<td>Russo</td>
+
+</tr>
+
+<tr>
+
+<td>PIB</td>
+
+<td>≈US$ 2,3 Trilhões</td>
+
+</tr>
+
+<tr>
+
+<td>Continente</td>
+
+<td>Europa e Ásia</td>
+
+</tr>
+
+<tr>
+
+<td>Governo</td>
+
+<td>República Federal</td>
+
+</tr>
+
+<tr>
+
+<td>Presidente</td>
+
+<td>Atualizar conforme dados recentes</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+<section class="janela">
+
+<div class="barra">
+
+Resumo Geral
+
+</div>
+
+<div class="conteudo">
+
+<p>
+
+A Rússia é o maior país do mundo em extensão territorial e possui vastas reservas de petróleo, gás natural, minerais e recursos naturais. É uma potência militar e energética, além de membro permanente do Conselho de Segurança da ONU.
+
+</p>
+
+<p>
+
+O país participa de organizações como BRICS, G20, Organização para Cooperação de Xangai (OCS) e União Econômica Eurasiática.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="janela">
+
+<div class="barra">
+
+Indicadores Econômicos
+
+</div>
+
+<div class="conteudo">
+
+<table class="tabela">
+
+<tr>
+
+<th>Indicador</th>
+
+<th>Valor</th>
+
+</tr>
+
+<tr>
+
+<td>PIB</td>
+
+<td>≈US$ 2,3 Trilhões</td>
+
+</tr>
+
+<tr>
+
+<td>PIB Per Capita</td>
+
+<td>≈16 mil USD</td>
+
+</tr>
+
+<tr>
+
+<td>Inflação</td>
+
+<td>Atualizar conforme dados recentes</td>
+
+</tr>
+
+<tr>
+
+<td>Desemprego</td>
+
+<td>Atualizar conforme dados recentes</td>
+
+</tr>
+
+<tr>
+
+<td>Reservas Internacionais</td>
+
+<td>Atualizar conforme dados recentes</td>
+
+</tr>
+
+<tr>
+
+<td>Principais Exportações</td>
+
+<td>Petróleo, gás natural, fertilizantes, metais e trigo</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+<section class="janela">
+
+<div class="barra">
+
+Gráfico do PIB
+
+</div>
+
+<div class="conteudo">
+
+<canvas id="graficoPIBRussia"></canvas>
+
+</div>
+
+</section>
+<section class="janela">
+
+    <div class="barra">
+
+    Comércio Internacional
+
+    </div>
+
+    <div class="conteudo">
+
+    <h3>Principais Exportações</h3>
+
+    <table class="tabela">
+
+    <tr>
+
+    <th>Produto</th>
+
+    <th>Participação</th>
+
+    </tr>
+
+    <tr>
+
+    <td>Petróleo</td>
+
+    <td>31%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Gás Natural</td>
+
+    <td>24%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Metais</td>
+
+    <td>12%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Fertilizantes</td>
+
+    <td>10%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Trigo</td>
+
+    <td>9%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Madeira</td>
+
+    <td>6%</td>
+
+    </tr>
+
+    </table>
+
+    <br>
+
+    <h3>Principais Importações</h3>
+
+    <table class="tabela">
+
+    <tr>
+
+    <th>Produto</th>
+
+    <th>Participação</th>
+
+    </tr>
+
+    <tr>
+
+    <td>Máquinas Industriais</td>
+
+    <td>22%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Equipamentos Eletrônicos</td>
+
+    <td>18%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Medicamentos</td>
+
+    <td>12%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Automóveis</td>
+
+    <td>11%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Produtos Químicos</td>
+
+    <td>10%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Equipamentos Médicos</td>
+
+    <td>8%</td>
+
+    </tr>
+
+    </table>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="barra">
+
+    Principais Parceiros Comerciais
+
+    </div>
+
+    <div class="conteudo">
+
+    <table class="tabela">
+
+    <tr>
+
+    <th>País</th>
+
+    <th>Área de Cooperação</th>
+
+    </tr>
+
+    <tr>
+
+    <td>China</td>
+
+    <td>Energia e Comércio</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Índia</td>
+
+    <td>Petróleo e Fertilizantes</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Turquia</td>
+
+    <td>Energia</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Brasil</td>
+
+    <td>Agronegócio e Fertilizantes</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Cazaquistão</td>
+
+    <td>Integração Regional</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Emirados Árabes Unidos</td>
+
+    <td>Comércio e Investimentos</td>
+
+    </tr>
+
+    </table>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="barra">
+
+    Empresas Estratégicas
+
+    </div>
+
+    <div class="conteudo">
+
+    <table class="tabela">
+
+    <tr>
+
+    <th>Empresa</th>
+
+    <th>Setor</th>
+
+    </tr>
+
+    <tr>
+
+    <td>Gazprom</td>
+
+    <td>Gás Natural</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Rosneft</td>
+
+    <td>Petróleo</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Lukoil</td>
+
+    <td>Energia</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Rosatom</td>
+
+    <td>Energia Nuclear</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Alrosa</td>
+
+    <td>Mineração</td>
+
+    </tr>
+
+    <tr>
+
+    <td>United Aircraft Corporation</td>
+
+    <td>Indústria Aeroespacial</td>
+
+    </tr>
+
+    </table>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="barra">
+
+    Energia
+
+    </div>
+
+    <div class="conteudo">
+
+    <p>
+
+    A Rússia possui algumas das maiores reservas de gás natural e petróleo do mundo. O setor energético é um dos pilares da economia nacional e representa uma parcela significativa das exportações do país.
+
+    </p>
+
+    <p>
+
+    Além dos combustíveis fósseis, a Rússia também atua na construção de usinas nucleares e na exportação de tecnologia para geração de energia.
+
+    </p>
+
+    </div>
+
+    </section>
+
+    <section class="janela">
+
+    <div class="barra">
+
+    Gráfico do Comércio Exterior
+
+    </div>
+
+    <div class="conteudo">
+
+    <canvas id="graficoComercioRussia"></canvas>
+
+    </div>
+
+    </section>
+    <section class="janela">
+
+        <div class="barra">
+
+        Poder Militar da Rússia
+
+        </div>
+
+        <div class="conteudo">
+
+        <h3>Resumo Militar</h3>
+
+        <p>
+
+        A Rússia possui uma das maiores capacidades militares do mundo, com destaque para suas forças terrestres, arsenal nuclear, sistemas de defesa aérea e indústria de defesa.
+
+        </p>
+
+        <table class="tabela">
+
+        <tr>
+
+        <th>Categoria</th>
+
+        <th>Quantidade Aproximada</th>
+
+        </tr>
+
+        <tr>
+
+        <td>Efetivo Militar Ativo</td>
+
+        <td>≈1.300.000</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Reservistas</td>
+
+        <td>≈2.000.000</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Tanques</td>
+
+        <td>≈5.700</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Blindados</td>
+
+        <td>≈14.000</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Artilharia</td>
+
+        <td>≈5.000</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Lançadores de Foguetes</td>
+
+        <td>≈3.500</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Aeronaves Militares</td>
+
+        <td>≈4.200</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Caças</td>
+
+        <td>≈1.000</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Helicópteros</td>
+
+        <td>≈1.500</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Submarinos</td>
+
+        <td>≈65</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Submarinos Nucleares</td>
+
+        <td>≈30</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Ogivas Nucleares</td>
+
+        <td>≈5.500</td>
+
+        </tr>
+
+        </table>
+
+        </div>
+
+        </section>
+
+        <section class="janela">
+
+        <div class="barra">
+
+        Principais Armamentos
+
+        </div>
+
+        <div class="conteudo">
+
+        <h3>Armas Individuais</h3>
+
+        <ul>
+
+        <li>AK-12</li>
+
+        <li>AK-15</li>
+
+        <li>PKP Pecheneg</li>
+
+        <li>SVD Dragunov</li>
+
+        <li>MP-443 Grach</li>
+
+        </ul>
+
+        <h3>Blindados</h3>
+
+        <ul>
+
+        <li>T-90M Proryv</li>
+
+        <li>T-80BVM</li>
+
+        <li>T-72B3</li>
+
+        <li>BMP-3</li>
+
+        <li>BTR-82A</li>
+
+        </ul>
+
+        <h3>Caças</h3>
+
+        <ul>
+
+        <li>Su-57</li>
+
+        <li>Su-35S</li>
+
+        <li>Su-30SM</li>
+
+        <li>MiG-31BM</li>
+
+        </ul>
+
+        <h3>Bombardeiros</h3>
+
+        <ul>
+
+        <li>Tu-160 Blackjack</li>
+
+        <li>Tu-95MS Bear</li>
+
+        <li>Tu-22M3 Backfire</li>
+
+        </ul>
+
+        <h3>Sistemas de Defesa Aérea</h3>
+
+        <ul>
+
+        <li>S-400 Triumph</li>
+
+        <li>S-500 Prometey</li>
+
+        <li>Pantsir-S1</li>
+
+        </ul>
+
+        <h3>Mísseis Estratégicos</h3>
+
+        <ul>
+
+        <li>RS-28 Sarmat</li>
+
+        <li>Iskander-M</li>
+
+        <li>Kinzhal</li>
+
+        <li>Kalibr</li>
+
+        <li>Yars</li>
+
+        </ul>
+
+        </div>
+
+        </section>
+
+        <section class="janela">
+
+        <div class="barra">
+
+        Marinha Russa
+
+        </div>
+
+        <div class="conteudo">
+
+        <table class="tabela">
+
+        <tr>
+
+        <th>Categoria</th>
+
+        <th>Quantidade Aproximada</th>
+
+        </tr>
+
+        <tr>
+
+        <td>Fragatas</td>
+
+        <td>≈15</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Corvetas</td>
+
+        <td>≈80</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Destróieres</td>
+
+        <td>≈10</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Submarinos Convencionais</td>
+
+        <td>≈35</td>
+
+        </tr>
+
+        <tr>
+
+        <td>Submarinos Nucleares</td>
+
+        <td>≈30</td>
+
+        </tr>
+
+        </table>
+
+        </div>
+
+        </section>
+
+        <section class="janela">
+
+        <div class="barra">
+
+        Gráfico do Poder Militar
+
+        </div>
+
+        <div class="conteudo">
+
+        <canvas id="graficoMilitarRussia"></canvas>
+
+        </div>
+
+        </section>
+        <section class="janela">
+
+            <div class="barra">
+
+            Geopolítica
+
+            </div>
+
+            <div class="conteudo">
+
+            <p>
+
+            A Rússia é um dos principais atores da geopolítica mundial, exercendo influência por meio de sua posição estratégica, recursos energéticos, capacidade militar e participação em organizações internacionais.
+
+            </p>
+
+            <h3>Principais Organizações</h3>
+
+            <table class="tabela">
+
+            <tr>
+
+            <th>Organização</th>
+
+            <th>Objetivo</th>
+
+            </tr>
+
+            <tr>
+
+            <td>ONU</td>
+
+            <td>Membro permanente do Conselho de Segurança.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>BRICS</td>
+
+            <td>Cooperação econômica entre países emergentes.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>OCS</td>
+
+            <td>Segurança e cooperação regional.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>União Econômica Eurasiática</td>
+
+            <td>Integração econômica regional.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>G20</td>
+
+            <td>Debates sobre economia internacional.</td>
+
+            </tr>
+
+            </table>
+
+            </div>
+
+            </section>
+
+            <section class="janela">
+
+            <div class="barra">
+
+            Relações Internacionais
+
+            </div>
+
+            <div class="conteudo">
+
+            <table class="tabela">
+
+            <tr>
+
+            <th>País</th>
+
+            <th>Relação Geral</th>
+
+            </tr>
+
+            <tr>
+
+            <td>China</td>
+
+            <td>Parceria estratégica, comércio e energia.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Índia</td>
+
+            <td>Cooperação em energia, defesa e BRICS.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Irã</td>
+
+            <td>Cooperação política, energética e regional.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Brasil</td>
+
+            <td>Parceria econômica e agrícola no BRICS.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Emirados Árabes Unidos</td>
+
+            <td>Investimentos e comércio.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Turquia</td>
+
+            <td>Energia, comércio e cooperação regional.</td>
+
+            </tr>
+
+            </table>
+
+            </div>
+
+            </section>
+
+            <section class="janela">
+
+            <div class="barra">
+
+            Sanções Internacionais
+
+            </div>
+
+            <div class="conteudo">
+
+            <p>
+
+            Diversos países e blocos econômicos aplicaram sanções contra a Rússia em diferentes períodos. Essas medidas incluem restrições financeiras, comerciais, tecnológicas e limitações sobre determinados produtos e serviços.
+
+            </p>
+
+            <table class="tabela">
+
+            <tr>
+
+            <th>Tipo</th>
+
+            <th>Descrição Geral</th>
+
+            </tr>
+
+            <tr>
+
+            <td>Financeiras</td>
+
+            <td>Restrições ao setor bancário e financeiro.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Tecnológicas</td>
+
+            <td>Limitações na exportação de determinadas tecnologias.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Comerciais</td>
+
+            <td>Restrições sobre produtos e setores específicos.</td>
+
+            </tr>
+
+            <tr>
+
+            <td>Transporte</td>
+
+            <td>Limitações em alguns serviços logísticos e de transporte.</td>
+
+            </tr>
+
+            </table>
+
+            </div>
+
+            </section>
+
+            <section class="janela">
+
+            <div class="barra">
+
+            Conflitos e Segurança
+
+            </div>
+
+            <div class="conteudo">
+
+            <p>
+
+            A Rússia participa de questões de segurança regional e internacional. Entre os temas de maior relevância estão o conflito envolvendo a Ucrânia, a segurança no Mar Negro, a região do Cáucaso e o Ártico. Esses assuntos têm impacto nas relações diplomáticas, na economia e na segurança internacional.
+
+            </p>
+
+            <h3>Prioridades Estratégicas</h3>
+
+            <ul>
+
+            <li>Proteção das fronteiras nacionais.</li>
+
+            <li>Segurança energética.</li>
+
+            <li>Modernização das Forças Armadas.</li>
+
+            <li>Ampliação da cooperação com países parceiros.</li>
+
+            <li>Desenvolvimento do Ártico e de novas rotas comerciais.</li>
+
+            </ul>
+
+            </div>
+
+            </section>
+
+            <section class="janela">
+
+            <div class="barra">
+
+            Influência Internacional
+
+            </div>
+
+            <div class="conteudo">
+
+            <ul>
+
+            <li>Grande exportador de petróleo e gás natural.</li>
+
+            <li>Importante produtor de fertilizantes.</li>
+
+            <li>Destaque na indústria aeroespacial e nuclear.</li>
+
+            <li>Participação em operações diplomáticas internacionais.</li>
+
+            <li>Cooperação com países da Ásia, Oriente Médio, África e América Latina.</li>
+
+            </ul>
+
+            </div>
+
+            </section>
+
+            <section class="janela">
+
+            <div class="barra">
+
+            Gráfico da Influência Geopolítica
+
+            </div>
+
+            <div class="conteudo">
+
+            <canvas id="graficoGeopoliticaRussia"></canvas>
+
+            </div>
+
+            </section>
+            <section class="janela">
+
+                <div class="barra">
+
+                Tecnologia e Inovação
+
+                </div>
+
+                <div class="conteudo">
+
+                <p>
+
+                A Rússia possui tradição em engenharia, indústria aeroespacial, energia nuclear, defesa, computação de alto desempenho e pesquisa científica. O país investe em modernização tecnológica e desenvolvimento industrial.
+
+                </p>
+
+                <table class="tabela">
+
+                <tr>
+
+                <th>Área</th>
+
+                <th>Destaques</th>
+
+                </tr>
+
+                <tr>
+
+                <td>Programa Espacial</td>
+
+                <td>Roscosmos, foguetes Soyuz e missões orbitais.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Energia Nuclear</td>
+
+                <td>Rosatom e construção de usinas nucleares.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Aviação</td>
+
+                <td>Sukhoi, MiG e United Aircraft Corporation.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Tecnologia Militar</td>
+
+                <td>Mísseis hipersônicos, radares e defesa aérea.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Computação</td>
+
+                <td>Centros nacionais de pesquisa e supercomputação.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Inteligência Artificial</td>
+
+                <td>Projetos voltados para indústria, defesa e pesquisa.</td>
+
+                </tr>
+
+                </table>
+
+                </div>
+
+                </section>
+
+                <section class="janela">
+
+                <div class="barra">
+
+                Curiosidades
+
+                </div>
+
+                <div class="conteudo">
+
+                <ul>
+
+                <li>Maior país do mundo em área territorial.</li>
+
+                <li>Possui uma das maiores reservas de gás natural do planeta.</li>
+
+                <li>É um dos maiores produtores mundiais de petróleo.</li>
+
+                <li>Integra o grupo BRICS.</li>
+
+                <li>Possui um dos maiores arsenais nucleares do mundo.</li>
+
+                <li>É referência em engenharia aeroespacial e energia nuclear.</li>
+
+                </ul>
+
+                </div>
+
+                </section>
+
+                <section class="janela">
+
+                <div class="barra">
+
+                Linha do Tempo
+
+                </div>
+
+                <div class="conteudo">
+
+                <table class="tabela">
+
+                <tr>
+
+                <th>Ano</th>
+
+                <th>Evento</th>
+
+                </tr>
+
+                <tr>
+
+                <td>1991</td>
+
+                <td>Formação da Federação Russa após o fim da União Soviética.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>1997</td>
+
+                <td>Ampliação de acordos internacionais de cooperação.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>2006</td>
+
+                <td>Expansão das exportações de energia.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>2015</td>
+
+                <td>Fortalecimento da União Econômica Eurasiática.</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Atualidade</td>
+
+                <td>Atuação em energia, indústria, tecnologia e geopolítica.</td>
+
+                </tr>
+
+                </table>
+
+                </div>
+
+                </section>
+
+                <section class="janela">
+
+                <div class="barra">
+
+                Resumo Estratégico
+
+                </div>
+
+                <div class="conteudo">
+
+                <p>
+
+                A Rússia desempenha papel relevante na geopolítica internacional devido à sua dimensão territorial, recursos naturais, indústria energética, capacidade tecnológica e presença diplomática. O país mantém relações econômicas e estratégicas com diversas regiões do mundo.
+
+                </p>
+
+                </div>
+
+                </section>
+
+                <footer class="rodape">
+
+                <p>
+
+                GeoPolitics © 2026
+
+                </p>
+
+                <p>
+
+                Portal Internacional de Economia, Geopolítica, Tecnologia e Defesa.
+
+                </p>
+
+                </footer>
+
+                </div>
+
+                </body>
+
+                </html>

@@ -1,0 +1,66 @@
+[
+      {
+          "pais": "Brasil",
+              "data": "2026-07",
+                  "categoria": "Economia e Relações Internacionais",
+                      "titulo": "Tensões comerciais com os Estados Unidos",
+                          "resumo": "O Brasil enfrenta novas tarifas comerciais impostas pelos Estados Unidos, aumentando debates sobre comércio exterior e relações diplomáticas.",
+                              "impacto": "Pode afetar exportações brasileiras e estimular novas parcerias comerciais."
+                                },
+                                  {
+                                      "pais": "Estados Unidos",
+                                          "data": "2026-07",
+                                              "categoria": "Política Internacional",
+                                                  "titulo": "Nova iniciativa diplomática dos Estados Unidos",
+                                                      "resumo": "O governo americano lançou uma iniciativa internacional envolvendo negociações de paz e reconstrução em zonas de conflito.",
+                                                          "impacto": "Aumenta a influência diplomática dos Estados Unidos em crises internacionais."
+                                                            },
+                                                              {
+                                                                  "pais": "China",
+                                                                      "data": "2026-07",
+                                                                          "categoria": "Economia e Tecnologia",
+                                                                              "titulo": "China mantém foco em tecnologia e comércio global",
+                                                                                  "resumo": "O país continua expandindo setores estratégicos como tecnologia, manufatura avançada e exportações.",
+                                                                                      "impacto": "Reforça a disputa econômica e tecnológica com outras grandes potências."
+                                                                                        },
+                                                                                          {
+                                                                                              "pais": "Rússia",
+                                                                                                  "data": "2026-07",
+                                                                                                      "categoria": "Geopolítica",
+                                                                                                          "titulo": "Guerra na Ucrânia continua influenciando relações internacionais",
+                                                                                                              "resumo": "O conflito permanece como um dos principais fatores da política externa russa e das relações com o Ocidente.",
+                                                                                                                  "impacto": "Mantém pressão sobre segurança europeia e alianças militares."
+                                                                                                                    },
+                                                                                                                      {
+                                                                                                                          "pais": "Índia",
+                                                                                                                              "data": "2026-07",
+                                                                                                                                  "categoria": "Economia",
+                                                                                                                                      "titulo": "Índia amplia crescimento econômico",
+                                                                                                                                          "resumo": "O país continua atraindo investimentos em tecnologia, indústria e infraestrutura.",
+                                                                                                                                              "impacto": "Aumenta sua importância como potência econômica emergente."
+                                                                                                                                                },
+                                                                                                                                                  {
+                                                                                                                                                      "pais": "Japão",
+                                                                                                                                                          "data": "2026-07",
+                                                                                                                                                              "categoria": "Defesa e Tecnologia",
+                                                                                                                                                                  "titulo": "Japão fortalece capacidade tecnológica e defesa",
+                                                                                                                                                                      "resumo": "O país amplia investimentos em tecnologia militar e inovação industrial.",
+                                                                                                                                                                          "impacto": "Aumenta seu papel estratégico na Ásia."
+                                                                                                                                                                            },
+                                                                                                                                                                              {
+                                                                                                                                                                                  "pais": "Alemanha",
+                                                                                                                                                                                      "data": "2026-07",
+                                                                                                                                                                                          "categoria": "Economia",
+                                                                                                                                                                                              "titulo": "Alemanha enfrenta desafios industriais",
+                                                                                                                                                                                                  "resumo": "A maior economia europeia busca fortalecer sua indústria diante de mudanças globais.",
+                                                                                                                                                                                                      "impacto": "Pode influenciar a economia da União Europeia."
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                          {
+                                                                                                                                                                                                              "pais": "França",
+                                                                                                                                                                                                                  "data": "2026-07",
+                                                                                                                                                                                                                      "categoria": "Política Internacional",
+                                                                                                                                                                                                                          "titulo": "França amplia atuação diplomática",
+                                                                                                                                                                                                                              "resumo": "O país mantém participação ativa em decisões europeias e internacionais.",
+                                                                                                                                                                                                                                  "impacto": "Reforça sua influência dentro da Europa."
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                    ]
